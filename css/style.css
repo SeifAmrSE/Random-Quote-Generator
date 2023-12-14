@@ -1,0 +1,57 @@
+h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'rubik';
+    letter-spacing: -3px;
+    word-spacing: 5px;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'rubik2';
+    font-weight: bold;
+    font-weight: 400;
+}
+
+button{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top:2px solid #545454;
+    border-left:2px solid #545454;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background-color: blue;
+    padding: 25px 90px;
+}
+button:hover{
+    background-color: #008000;
+    cursor: context-menu;
+}
+
+button span{
+    font-size: 13px;
+}
+
+#quote{
+    text-align: center;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+
+@font-face{
+    font-family: 'rubik';
+    src:url('../fonts/static/Rubik-Black.ttf')
+}
+
+@font-face{
+    font-family: 'rubik2';
+    src:url('../fonts/static/Rubik-Regular.ttf')
+}
